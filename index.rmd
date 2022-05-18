@@ -1,0 +1,60 @@
+---
+title: "Title for temp"
+subtitle: "Sub title for temp"
+author: "王　超辰 "
+institute: "Chaochen Wang | J-VEO"
+date: "202X-xx-xx"
+output: 
+  xaringan::moon_reader:
+    css:
+      - default
+      - mtheme.css
+      - fonts_mtheme.css
+    nature: 
+      countdown: 60000
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = TRUE)
+options(htmltools.preserve.raw = FALSE)
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "lilly-logo-transparent.png",
+  position = xaringanExtra::css_position(bottom = "-3em", left = "1em"),
+  # exclude_class = NULL
+)
+```
+
+
+
+# Table of Cotents 目次
+
+
+
+.blockquote[
+### `r icons::fontawesome("comment-dots", style = "solid")` Everybody is a Bayesian. It's just that some know it, and some don't.
+ .right[.font140[[.black[Trivellore Raghunathan]](http://www-personal.umich.edu/~teraghu/)]]
+]
+
+
+---
+class: inverse, center, middle, hide-logo
+
+# Thanks 
+
+---
+class: 
+
+# test
+
+---
+class: hide-logo
+# Team
